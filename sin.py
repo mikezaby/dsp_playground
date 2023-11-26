@@ -20,6 +20,7 @@ def create_wav_file(samples, sample_rate, filename):
 sample_rate = 44100
 duration = 3
 samples = generate_samples(sample_rate, 3, gn)
+print(samples)
 
-create_wav_file(samples, sample_rate, "sin.wav")
+create_wav_file(samples, sample_rate, "temp/sin.wav")
 
